@@ -1,42 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Joana Frainer</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-    <nav>
-        <ul>
-            <li>Sobre</li>
-        </ul>
-    </nav>
-    <div class="cabecalho">
-        <img src="logo.png" alt="Logo Joana Frainer">
-        <header>
-            <h1>Joana Frainer</h1>
-        </header>
-    </div>
-    <div>
-        <div class="paginas">
-            <a href="produtos.html">Produtos</a>
-            <a href="">Sobre</a>
+  <body>
+      <div class="paginas">
+        <nav>
+            <a href="planilhas.html">Planilhas</a>
+            <a href="#sobre">Sobre</a>
             <a href="consultoria.html">Consultoria</a>
-        </div>
+        </nav>  
+      </div>
 
-        <div class="container">
-            <main>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis sunt voluptas saepe.
-                    Voluptate, asperiores natus nobis nemo ex saepe, iure tenetur tempora culpa nostrum quidem quis a?
-                    Officia, minus deserunt.</p>
-            </main>
-        </div>
-    </div>
+      <div>
+        <img src="img/joana.jpg">
+        <h1>Joana Frainer</h1>
+        <h2>Consultoria Financeira</h2>
+      </div>
 
+      <div class="container">
+        <main>
+          <h2 id="sobre" class="Sobre">Sobre...</h2>
+          <p>
+            Joana Frainer é uma profissional dedicada à consultoria financeira,
+            com experiência em ajudar indivíduos e empresas a alcançar
+            estabilidade e crescimento financeiro. Sua abordagem personalizada
+            combina organização, estratégia e disciplina para transformar a
+            relação dos clientes com o dinheiro. Joana acredita que o
+            planejamento financeiro é a chave para realizar sonhos e construir
+            um futuro sólido e sustentável. Com foco em educação financeira, ela
+            orienta seus clientes a tomar decisões informadas e a estabelecer
+            metas alcançáveis. Além disso, Joana oferece ferramentas práticas
+            para otimizar recursos e garantir segurança financeira. Sua missão é
+            proporcionar tranquilidade e confiança, ajudando pessoas a
+            equilibrar sonhos e sacrifícios enquanto conquistam seus objetivos.
+            Se você busca transformar sua vida financeira, Joana Frainer pode
+            ser a parceira ideal para guiá-lo nessa jornada. Com sua expertise e
+            compromisso, ela oferece soluções eficazes para organizar finanças,
+            proteger patrimônio e planejar um futuro próspero.
+          </p>
+        </main>
+      </div>
 
-</body>
-
+      <div id="projetos" class="projetos">
+        <section class="controle-financeiro">
+            <img src="img/1.jpg" alt="controle financeiro">
+            <h1>Controle Financeiro</h1>
+        </section>
+        <section class="planilhas">
+            <img src="img/3.jpg" alt="planilhas">
+            <h1>Planilhas</h1>
+        </section>
+        <section class="consultoria">
+            <img src="img/2.jpg" alt="consultoria">
+            <h1>Consultoria</h1>
+        </section>
+        <section class="contato">
+            <h1>Contato</h1>
+            <label for="text">Nome</label>
+            <input type="text">
+            <label for="text">email</label>
+            <input type="text">
+            <label for="text">Escreva sua mensagem</label>
+            <input type="text">
+        </section>
+      </div>
+    
+      <footer class="rodape">
+        <section class="developer">
+            <p id="desenvolvedor">Desenvolvido por Junior Almeida</p>
+        </section>
+      </footer>
+  </body>
 </html>

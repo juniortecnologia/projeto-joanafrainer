@@ -5,3 +5,52 @@
     text-decoration: none;
     font-family: "Inter", sans-serif;
 }
+
+:root{
+    background-color: bisque;
+}
+
+.cabecalho {
+    display: flex;
+    
+}
+
+.logo img {
+    display: flex;
+    width: 250px;
+    height: 190px;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin: 50px;
+}
+
+.paginas nav  {
+    display: flex;
+    margin-right: auto;
+    gap: 60px;
+    padding: 20px;
+    margin-top:100px ;
+}
+
+nav a {
+    font-size: 1.8rem;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.joana {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+}
+
+.joana img {
+    border-radius: 1000px;
+    width: 400px;
+}

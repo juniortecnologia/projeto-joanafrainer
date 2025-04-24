@@ -1,24 +1,39 @@
 * {
-    margin: 0% auto;
-    padding: 0% auto;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: "Inter", sans-serif;
 }
 
 :root{
-    background-color: bisque;
+    background-color: rgba(241, 236, 229, 0.296);
 }
 
-.cabecalho {
+header {
+    background-color: black;
     display: flex;
-    
+    width: 100%;
 }
+
+.paginas{
+    display: flex;
+    margin-left: 1600px;
+    gap: 15px;
+}
+
+.paginas a {
+    font-size: 2.2rem;
+    color: aliceblue;
+    text-decoration: none;
+}
+
 
 .logo img {
     display: flex;
     width: 250px;
     height: 190px;
+    border: none;
 }
 
 .logo {
@@ -27,20 +42,13 @@
     margin: 50px;
 }
 
-.paginas nav  {
-    display: flex;
+.paginas a{
     margin-right: auto;
     gap: 60px;
     padding: 20px;
     margin-top:100px ;
 }
 
-nav a {
-    font-size: 1.8rem;
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
 
 .joana {
     display: flex;
@@ -51,6 +59,42 @@ nav a {
 }
 
 .joana img {
+    margin-top: 200px;
     border-radius: 1000px;
     width: 400px;
+}
+
+.container main h6 {
+    display: flex;
+    font-size: 2.8rem;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    transition: 2.5s;
+}
+
+.container main h1 {
+    display: flex;
+    margin: 32px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 25%;
+}
+
+.rodape p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+    margin-bottom: 28px;
 }

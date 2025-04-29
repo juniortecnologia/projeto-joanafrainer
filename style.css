@@ -5,3 +5,19 @@
     text-decoration: none;
     font-family: "Inter", sans-serif;
 }
+
+.background {
+    opacity: 0.5;
+    position: absolute;
+}
+body {
+    background-repeat: repeat-x repeat-y;
+    background-position: center;
+    background-color: rgba(2, 29, 56, 0.459);
+    align-items: center;
+    justify-content: center;
+}
+
+.projetos {
+    display: grid;
+}

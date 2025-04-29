@@ -6,7 +6,6 @@
     <title>Joana Frainer</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
     <main class="container">
       <header>
@@ -15,29 +14,33 @@
             <img src="img/logo.jpg" alt="logo" />
           </a>
         </div>
-        <nav class="paginas">
-          <a href="#">Home</a>
-          <a href="sobre" id="sobre">Sobre</a>
-          <a href="./pages/projetos.html" target="_blank">Projetos</a>
-          <a href="./pages/planilhas.html" target="_blank">Planilhas</a>
-          <a href="./pages/consultoria.html" target="_blank">Consultoria</a>
+        <nav class="menu">
+          <ul class="lista">
+            <a href="#">Home</a>
+            <a href="sobre" id="sobre">Sobre</a>
+            <a href="./pages/projetos.html" target="_blank">Projetos</a>
+            <a href="./pages/planilhas.html" target="_blank">Planilhas</a>
+            <a href="./pages/consultoria.html" target="_blank">Consultoria</a>
+          </ul>
         </nav>
       </header>
-      <section id="joana-frainer" style="display: none;">
-        <img src="img/joana.jpg" alt="Joana Frainer" class="joana"/>
-        <h1>Joana Frainer</h1>
-        <h2>Consultoria Financeira</h2> 
-      </section>
+
       <article class="frase-principal">
         <h1>
-          "Seus custos, seus lucros, sua autonomia. Tudo começa com a organização."
+          "Seus custos, seus lucros, sua autonomia. Tudo começa com a
+          organização."
         </h1>
         <h2>
-          Facilito a gestão do seu próprio negócio com planilhas prontas, práticas
-          e descomplicadas para te ajudar a cuidar do que importa.
+          Facilito a gestão do seu próprio negócio com planilhas prontas,
+          práticas e descomplicadas para te ajudar a cuidar do que importa.
         </h2>
       </article>
-      
+
+      <section class="sobre" id="joana-frainer" style="display: none">
+        <img src="img/joana.jpg" alt="Joana Frainer" class="joana" />
+        <h1>Joana Frainer</h1>
+        <h2>Consultoria Financeira</h2>
+      </section>
     </main>
 
     <!--
@@ -45,7 +48,7 @@
     
       
       -->
-    <form action="">
+    <form class="formulario" action="">
       <fieldset>
         <label for="text">Nome</label>
         <input type="text" />
